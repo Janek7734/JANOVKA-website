@@ -36,12 +36,6 @@ button {
     border-radius: 15px;
 }
 
-img {
-    margin-top: 30px;
-    border-radius: 12px;
-    width: 100%;
-}
-
 .box {
     background-color: white;
     padding: 30px;
@@ -89,7 +83,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto 20px auto;
 }
 
@@ -110,7 +104,7 @@ img {
 }
 
 .stopka {
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     color: darkblue;
@@ -152,4 +146,18 @@ form button {
 
 .czerwony-naglowek {
     color: red;
+}
+
+.zdjnauka {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.naukaclass {
+    background-color: #eaf4ff;
+}
+
+.start-box {
+    padding: 60px 40px;
 }
