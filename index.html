@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>JANOVKA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="naglowek-strony">
+        <div class="logo">JANOVKA</div>
+        <div class="menu">
+            <a href="#start">Start</a>
+            <a href="#omnie">O mnie</a>
+            <a href="#kontakt">Kontakt</a>
+        </div>
+    </div>
+
+    <div id="start" class="box">
+        <h1 id="glowny-naglowek">Witam, z tej strony Janek!</h1>
+        <p class="opis tekst-js">Uczę się robić strony internetowe.</p>
+
+        <div class="przyciski">
+            <button class="przycisk-glowny">Kliknij</button>
+            <button class="przycisk-drugi">Drugi przycisk</button>
+        </div>
+
+        <h2>Dopiero zaczynam swoją naukę</h2>
+        <p>Chcę się dużo nauczyć</p>
+        <a class="link-box" href="https://google.com">Przejdź do Google</a>
+        <img src="IMG_5226.JPG" alt="Przykładowy obrazek">
+    </div>
+
+    <section id="omnie" class="box">
+        <h2>O mnie</h2>
+        <p>Mam na imię Janek i uczę się tworzyć nowoczesne strony internetowe.</p>
+    </section>
+
+    <section id="kontakt" class="box">
+        <h2>Kontakt</h2>
+        <p>Napisz do mnie: karakula.jan@gmail.com</p>
+
+        <form>
+            <label for="imie">Imię</label>
+            <input id="imie" type="text" placeholder="Wpisz swoje imię" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Wpisz swój email" required>
+
+            <label for="wiadomosc">Wiadomość</label>
+            <textarea id="wiadomosc" placeholder="Wpisz swoją wiadomość" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer class="stopka">
+        <p>© 2026 JANOVKA. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
