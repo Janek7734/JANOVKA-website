@@ -85,6 +85,10 @@ button {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto 20px auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -160,4 +164,9 @@ form button {
 
 .start-box {
     padding: 60px 40px;
+}
+
+.menu a {
+    padding: 8px 14px;
+    border-radius: 8px;
 }
