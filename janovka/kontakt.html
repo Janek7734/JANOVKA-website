@@ -5,35 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JANOVKA | Kontakt</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logokolko.png">
 </head>
 <body>
     <header class="naglowek-strony">
-        <a class="logo" href="index.html">JANOVKA</a>
+        <a class="logo" href="index.html">
+            <img src="janovka_logo_pelne.png" alt="JANOVKA">
+        </a>
+
         <nav class="menu">
             <a href="index.html">Start</a>
-            <a href="nauka.html">Nauka</a>
-            <a href="omnie.html">O mnie</a>
+            <a href="oferta.html">Oferta</a>
             <a href="projekty.html">Projekty</a>
+            <a href="omnie.html">O mnie</a>
             <a class="aktywny" href="kontakt.html">Kontakt</a>
         </nav>
     </header>
 
     <main>
-        <section class="box">
-            <h1>Kontakt</h1>
-            <p>Napisz do mnie: <a href="mailto:karakula.jan@gmail.com">karakula.jan@gmail.com</a></p>
+        <section class="podstrona-hero">
+            <p class="etykieta">Kontakt</p>
+            <h1>Opowiedz mi, jakiej strony potrzebujesz.</h1>
+            <p>Możesz napisać o swojej firmie, pomyśle, budżecie albo po prostu zapytać, od czego zacząć.</p>
+        </section>
 
-            <form>
+        <section class="box">
+            <p>Napisz bezpośrednio: <a href="mailto:karakula.jan@gmail.com">karakula.jan@gmail.com</a></p>
+
+            <form class="formularz-kontaktowy">
                 <label for="imie">Imię</label>
-                <input id="imie" type="text" placeholder="Wpisz swoje imię" required>
+                <input id="imie" name="imie" type="text" placeholder="Wpisz swoje imię" required>
 
                 <label for="email">Email</label>
-                <input id="email" type="email" placeholder="Wpisz swój email" required>
+                <input id="email" name="email" type="email" placeholder="Wpisz swój email" required>
 
                 <label for="wiadomosc">Wiadomość</label>
-                <textarea id="wiadomosc" placeholder="Wpisz swoją wiadomość" required></textarea>
+                <textarea id="wiadomosc" name="wiadomosc" placeholder="Opisz krótko, czego potrzebujesz" required></textarea>
 
-                <button type="submit">Wyślij</button>
+                <button type="submit">Wyślij wiadomość</button>
             </form>
         </section>
     </main>
