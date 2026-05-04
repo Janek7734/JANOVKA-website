@@ -1,61 +1,54 @@
-# Nauka tworzenia stron internetowych
+# JANOVKA website
 
-Projekt stworzony do nauki podstaw front-endu i budowania stron internetowych.
+Statyczna strona internetowa marki JANOVKA, zbudowana jako prosta, szybka i responsywna wizytówka usług tworzenia stron internetowych.
+
+## Opis
+
+Projekt prezentuje ofertę JANOVKA: strony wizytówki, landing page, portfolio oraz odświeżanie istniejących stron. Strona jest napisana bez frameworków i bez procesu buildowania, dzięki czemu można ją uruchomić bezpośrednio w przeglądarce.
 
 ## Autor
+
 Janek Karakuła
 
-## Opis projektu
-To strona internetowa tworzona w celach nauki.  
-Projekt służy do ćwiczenia podstaw HTML, CSS i JavaScript oraz stopniowego poznawania tego, jak buduje się nowoczesne strony internetowe.
-
-W projekcie testowane są różne elementy strony, takie jak:
-- nagłówki,
-- przyciski,
-- sekcje,
-- kolory,
-- układ elementów,
-- style,
-- proste interakcje w JavaScript.
-
 ## Technologie
+
 - HTML
 - CSS
 - JavaScript
 
-## Cel projektu
-Celem projektu jest nauka:
-- struktury strony internetowej,
-- stylowania elementów,
-- działania klas i identyfikatorów,
-- obsługi zdarzeń w JavaScript,
-- budowania prostych interaktywnych elementów na stronie.
+## Zawartość strony
 
-## Funkcje
-Aktualnie projekt zawiera:
-- podstawowy układ strony,
-- przyciski zmieniające wygląd elementów,
-- zmianę kolorów,
-- proste operacje na elementach strony po kliknięciu.
-
-## Czego się uczę w tym projekcie
-W projekcie ćwiczę:
-- tworzenie elementów HTML,
-- łączenie HTML z CSS,
-- manipulowanie elementami przez JavaScript,
-- używanie `querySelector`,
-- obsługę `click`,
-- zmianę tekstu i stylu elementów.
-
-## Uruchomienie projektu
-1. Pobierz pliki projektu.
-2. Otwórz plik `index.html` w przeglądarce.
+- strona główna z sekcją hero, ofertą, procesem i CTA,
+- podstrona oferty,
+- podstrona projektów i przyszłych realizacji,
+- podstrona "O mnie",
+- podstrona kontaktowa z formularzem Formspree,
+- podstawowe tagi SEO i Open Graph,
+- `robots.txt`, `sitemap.xml` oraz `CNAME` dla domeny.
 
 ## Struktura projektu
-```bash
-projekt/
-│
+
+```text
+JANOVKA-website/
 ├── index.html
+├── oferta.html
+├── projekty.html
+├── omnie.html
+├── kontakt.html
 ├── style.css
 ├── script.js
+├── robots.txt
+├── sitemap.xml
+├── CNAME
 └── README.md
+```
+
+## Uruchomienie
+
+Otwórz plik `index.html` w przeglądarce.
+
+Projekt nie wymaga instalowania zależności ani uruchamiania serwera developerskiego.
+
+## Status
+
+Strona ma gotowy podstawowy układ i treści. Następne sensowne kroki to dopracowanie sekcji projektów, uporządkowanie nieużywanych zasobów i dodanie ewentualnych prostych interakcji w `script.js`.
