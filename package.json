@@ -1,0 +1,24 @@
+{
+  "name": "janovka-website",
+  "version": "1.0.0",
+  "description": "Statyczna strona internetowa marki JANOVKA, zbudowana jako prosta, szybka i responsywna wizytówka usług tworzenia stron internetowych.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janek7734/JANOVKA-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Janek7734/JANOVKA-website/issues"
+  },
+  "homepage": "https://github.com/Janek7734/JANOVKA-website#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
